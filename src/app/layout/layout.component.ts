@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LayoutComponent implements OnInit {
 
+  public titulo = "Título";
+  public numeroCabecera = 2;
+
   constructor() { }
 
   ngOnInit() {
